@@ -21,6 +21,7 @@ Rails >= 3.1
 
 Add it to your Gemfile:
 ```ruby
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'sweet-alert'
 gem 'sweet-alert-confirm'
 ```
@@ -28,6 +29,8 @@ gem 'sweet-alert-confirm'
 Add the following to application.js:
 
 ```javascript
+//= require jquery
+//= require jquery_ujs
 //= require sweet-alert
 //= require sweet-alert-confirm
 ```
